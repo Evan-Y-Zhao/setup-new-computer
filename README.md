@@ -709,32 +709,3 @@ fi
 <br>
 
 
-## Tips for using the script at your own company
-
-This script helps new developers at thermofisher setup their laptops quicker, letting them hit the ground running. Before, it could take 2-5 days to install and configure everything, leading to a frustrating first week. With this script and fast internet, the process can be done in under 30 min.
-	   
-
-## Resources and inspiration
-
-The following examples were helpful in building this script.
-	
-* macOS Dev Setup\
-  https://github.com/nicolashery/mac-dev-setup
-* dev-setup\
-  https://github.com/donnemartin/dev-setup#dev-setup
-* thoughtbot/laptop\
-  https://github.com/thoughtbot/laptop
-
-
-## Todo: Prep for M1 compatibility 
-
-- Install Rosetta 2 (Is it not installed by default or automatically?)\
-  `/usr/sbin/softwareupdate --install-rosetta` \
-  or `sudo /usr/sbin/softwareupdate --install-rosetta agree-to-license`
-
-- Set the new M1 location of homebrew up in the path \
-  `/opt/homebrew/bin`
-
-- More reading:
-  - https://www.wisdomgeek.com/development/installing-intel-based-packages-using-homebrew-on-the-m1-mac/
-  - https://github.com/Homebrew/discussions/discussions/417
